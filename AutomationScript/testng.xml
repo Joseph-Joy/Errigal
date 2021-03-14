@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Calculator">
+
+<listeners>
+<listener class-name="JosephJoy.E2eAutomation.Listerners"/>
+</listeners>
+  <test  name="Basic Functional Cases">
+    <classes>
+      <class name="JosephJoy.E2eAutomation.MainPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
